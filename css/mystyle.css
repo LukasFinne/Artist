@@ -17,7 +17,19 @@ h1 {
 img {
   height: 15%;
   width: 15%;
-  object-fit: contain;
+}
+
+.responsive {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f1f1f1;
+}
+
+.table1 {
+  flex: 50%;
+}
+.table2 {
+  flex: 50%;
 }
 
 table {
@@ -35,4 +47,18 @@ a {
 a:hover {
   color: #0f3d3e;
   text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  header {
+    flex-direction: column;
+  }
+  .table1,
+  .table2 {
+    flex: 100%;
+  }
+
+  img {
+    align-self: center;
+  }
 }
