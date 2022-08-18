@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+  <body>
+    <form action="/action.php" method="post">
+      Name: <input name="name" type="text" /> <br />
+      Age:
+      <input max="99" min="1" name="age" step="1" type="number" value="18" />
+      Question
+      <textarea
+        cols="20"
+        name="comments"
+        rows="5"
+        placeholder="Write your question here please!"
+      ></textarea
+      ><br />
+      <label
+        ><input name="terms" type="checkbox" value="tandc" />Accept terms</label
+      >
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
