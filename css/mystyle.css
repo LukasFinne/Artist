@@ -1,3 +1,28 @@
 body {
+  background-color: #0f3d3e;
+  color: #100f0f;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e2dcc8;
+  color: #100f0f;
+  font-family: "Aboreto", cursive;
+}
+h1 {
+  align-self: center;
+}
+
+img {
+  height: 15%;
+  width: 15%;
+  object-fit: contain;
+}
+
+table {
+  background-color: #f1f1f1;
+  color: #100f0f;
+  width: 100%;
   text-align: center;
 }
