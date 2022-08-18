@@ -26,3 +26,13 @@ table {
   width: 100%;
   text-align: center;
 }
+
+a {
+  color: #100f0f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0f3d3e;
+  text-decoration: underline;
+}
