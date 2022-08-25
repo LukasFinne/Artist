@@ -11,9 +11,12 @@ function printData(event) {
   let age = elAge.value;
   let question = elQuestion.value;
 
+  localStorage.setItem("question", question);
   elOutput.textContent =
     "Your name: " + name + " Age: " + age + " Your question: " + question;
   elOutput.style.visibility = "visible";
+  document.querySelector("#sentQuestion").textContent =
+    localStorage.getItem("question");
 }
 
 function checkQuestion(minLength) {

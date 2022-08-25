@@ -21,3 +21,16 @@ form {
   padding: 2em;
   visibility: hidden;
 }
+
+h2 {
+  color: white;
+}
+
+#sentQuestion {
+  background-color: #e2dcc8;
+  color: #100f0f;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column wrap;
+  padding: 2em;
+}
