@@ -3,23 +3,26 @@
     <link rel="stylesheet" href="css/contact.css" />
   </head>
   <body>
-    <form action="/action.php" method="post">
-      Name: <input name="name" type="text" /> <br />
+    <form action="" method="post" id="questionForm">
+      Name: <input id="name" type="text" /> <br />
       Age:
-      <input max="99" min="1" name="age" step="1" type="number" value="18" />
+      <input max="99" min="1" id="age" step="1" type="number" value="" />
       Question
       <textarea
         cols="20"
         name="comments"
         rows="5"
         placeholder="Write your question here please!"
+        id="question"
       ></textarea
       ><br />
-      <label
-        ><input name="terms" type="checkbox" value="tandc" />Accept terms</label
-      >
+      <label><input name="terms" type="checkbox" value="" />Accept terms</label>
       <br />
       <input type="submit" value="Submit" />
     </form>
+
+    <p id="output"></p>
+
+    <script src="js/contactForm.js"></script>
   </body>
 </html>
