@@ -1,0 +1,12 @@
+{
+  "albums": [
+    {
+      "desc": "bild1",
+      "picture": "img/skiva1.jpg"
+    },
+    {
+      "desc": "bild2",
+      "picture": "img/skiva2.jpg"
+    }
+  ]
+}
